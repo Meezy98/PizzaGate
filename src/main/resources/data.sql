@@ -61,3 +61,7 @@ foreign key (sauce_type) references sauce_type(sauce_type),
 foreign key (meat_type) references meat_type(meat_type),
 foreign key (side_items) references side_items(side_items)
 );
+
+
+
+insert into user_creds values(default,'JohnDoe322', 'IDKBRO!');

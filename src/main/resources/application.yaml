@@ -1,8 +1,8 @@
 server:
     port: 8000
-error:
-    include-message: always
-    include-stacktrace: never
+    error:
+      include-message: always
+      include-stacktrace: never
 spring:
         datasource:
             url: jdbc:h2:mem:testdb
